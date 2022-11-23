@@ -1,10 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { MuchosCustomHooks } from './componentes/MuchosCustomHooks';
+import React from "react";
+import ReactDOM from "react-dom";
+import { Divisible } from "./componentes/Divisible";
 
+const divRoot = document.querySelector("#root");
 
-
-const divRoot = document.querySelector('#root');
-
-
-ReactDOM.render( <MuchosCustomHooks/>, divRoot);
+ReactDOM.render(<Divisible />, divRoot);
